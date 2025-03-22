@@ -65,9 +65,9 @@ if page == "Home":
     st.markdown("### Explore Popular Restaurants")
 
     image_paths = [
-        r"C:\Users\Anamika\Downloads\images\image1.jpg",
-        r"C:\Users\Anamika\Downloads\images\image2.jpg",
-        r"C:\Users\Anamika\Downloads\images\image3.jpg"
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg"
     ]
 
     if "slider_index" not in st.session_state:
